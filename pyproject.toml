@@ -1,0 +1,15 @@
+[project]
+name = "peft"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "asyncio>=4.0.0",
+    "datasets>=4.4.1",
+    "fastapi>=0.121.3",
+    "hf-xet>=1.2.1",
+    "trl>=0.25.1",
+    "typing>=3.10.0.0",
+    "uvicorn>=0.38.0",
+]
